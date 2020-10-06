@@ -1,0 +1,164 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  padding-top:20px;
+  background-color: #ff4c68;
+
+
+
+
+}
+
+.first-h1{
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight:900;
+  line-height: 1.5;
+  font-size:3rem;
+  color:white;
+
+}
+
+.row{
+  padding-top:5%;
+  padding-bottom:10%;
+}
+.rotated {
+
+  transform: rotate(25deg);
+  position:absolute;
+
+  width:50%;
+  margin-left:130px;
+
+}
+.navbar{
+  padding-right:50px;
+}
+.navbar-brand{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size:25px;
+  font-weight:bold;
+}
+.nav-item{
+  padding-left:10px;
+  padding-right:10px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:'Montserrat-Light' sans-serif;
+}
+
+#features{
+  padding:7% 15%;
+  background-color:white;
+  position:relative;
+  z-index:1;
+}
+
+.fas{
+  color:#ef8172;
+
+}
+.fas:hover{
+  color:#ff4c68;
+}
+.feature-box{
+  text-align:center;
+}
+
+h3{
+  font-weight:bolder;
+  color:white;
+  font-family:"Montserrat-Black";
+  font-size:4rem;
+
+}
+p{
+  color:#8f8f8f;
+}
+.dogs-race{
+  color:black;
+}
+
+#testimonials{
+
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+
+}
+h2{
+
+  font-weight:bolder;
+  font-size:5rem;
+  line-height:4;
+
+}
+.testimonial-image{
+  border-radius:100%;
+  width:10%;
+  margin:20px;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+
+.image-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.button-download{
+  margin:12px;
+}
+#pricing{
+  padding:7% 15%;
+}
+
+.dogs-plan{
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+  text-align:center;
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  padding:7%;
+}
+#footer{
+  background-color:#fff;
+  text-align:center;
+  padding:5%;
+}
+.icon-footer{
+  color:black;
+  padding:5px;
+  padding-right:8px;
+}
+.footer-p{
+  padding:8px;
+}
+@media (max-width:991px)
+{
+    #title{
+      text-align:center;
+    }
+  .rotated{
+    padding-top:50px;
+    position:static;
+    transform:rotate(0);
+    margin-left:0;
+  }
+}
